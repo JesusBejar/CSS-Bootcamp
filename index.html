@@ -6,61 +6,86 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="styles.css">
-    <!-- inline styling -->
-    <style>
-        h1 {
-            color: green
-        }
-        h2 {
-            color: blue;
-        }
-        ul li {
-            color: red;
-        }
-        .five li {
-            background-color: red;
-        }
-    </style>
+    <!-- internal styling -->
+        <style>
+            h1 {
+                color: green
+            };
+            h2 {
+                color: blue;
+            };
+            ul li {
+                color: red;
+            };
+            .five li {
+                background-color: red;
+            };
+            .input {
+                color: purple;
+            };
+            #input {
+                color: pink
+            };
+        </style>
 </head>
-<body>
+    <body>
 
-    <!-- div*10 creates 10 divs -->
-    <div></div>
-    <div></div>
-    <div></div>
-    <div></div>
-    <div></div>
-    <div></div>
-    <div></div>
-    <div></div>
-    <div></div>
-    <div></div>
+        <!-- div*10 creates 10 divs -->
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
 
-    <!-- div>h1 creates div then h1 as child -->
-    <div>
-        <h1></h1>
-    </div>
+        <!-- div>h1 creates div then h1 as child -->
+        <div>
+            <h1></h1>
+        </div>
 
-    <!-- h1.className creates h1 w classname -->
-    <h1 class="className"></h1>
+        <!-- h1.className creates h1 w classname -->
+        <h1 class="className"></h1>
 
-    <!-- h1#IDname creates h1 w IDname -->
-    <h1 id="IDname"></h1>
+        <!-- h1#IDname creates h1 w IDname -->
+        <h1 id="IDname"></h1>
 
-    <h1>Cool beans</h1>
-    <h2>Heading 2</h2>
+        <!-- STYLES -->
+        <h1>Cool beans</h1>
+        <h2>Heading 2</h2>
 
-    <ul>
-        <li class="five">HTML 5</li>
-        <li>YO MOMMA</li>
-    </ul>
+        <ul>
+            <li class="five">HTML 5</li>
+            <li>YO MOMMA</li>
+        </ul>
 
-    <h1 id="external-styles">
-        External styles
-    </h1>
+        <h1 id="external-styles">
+            External styles
+        </h1>
 
-    <!-- class="" . -->
-    <!-- id="" # -->
-    
-</body>
+        <!-- SELECTORS -->
+        <!-- class="" . -->
+        <input type="text" class="input">
+        <!-- id="" # -->
+        <input type="text" id="input">
+
+        <!-- COMBINATORS -->
+        <!-- Combinators define relationship between selectors -->
+        <!-- used in styles sheet as a COMBINATION with other selectors -->
+        <!-- 1) Descendant (space) -->
+        <!-- uses = sign -->
+        
+        <!-- 2) Child -->
+        <!-- uses > sign -->
+
+        <!-- 3) Adjacent sibling -->
+        <!-- uses + sign -->
+
+        <!-- 4) General sibling -->
+        <!-- uses ~ sign -->
+
+    </body>
 </html>
